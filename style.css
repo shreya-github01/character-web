@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.index {
+    background-image: url('bg6.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.more {
+    background-image: url('bg2.png');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Imbue", serif;
+}
+
+.main-image {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #38abb85f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    color: aliceblue;
+    background-color: black;
+    box-shadow: 0 0 10px rgba(192, 192, 192, 0.8);
+
+     
+}
+
+
+.important-people {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.person {
+    text-align: left;
+    max-width: 600px;
+    font-family: "Sedan SC", serif;
+    
+}
+.person:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 30px rgba(192, 192, 192, 0.8);
+    text-shadow: 0 0 5px gold, 0 0 10px gold, 0 0 15px gold;
+
+}
+
+.person img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.person p {
+    margin-top: 10px;
+}
